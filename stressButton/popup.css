@@ -2,8 +2,32 @@ body {
   width: 250px;
   height: 250px;
   display: flex;
+  font-size: 14px;
   justify-content: center;
   flex-direction: column;
-  background-color: dimgray;
+  background-color: white;
   align-items: center;
+  border-radius: 4px;
+  background-image: url(https://i.ytimg.com/vi/OOFGdRmN70k/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: 275px 275px;
+  color: #FFFFFF;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+button {
+  background-color: #4c8bf5;
+  color: #FFFFFF;
+  height: 30px;
+  line-height: 29px;
+  text-align: center;
+  width: auto;
+  border: 0px;
+  padding-left:10px;
+  padding-right:10px;
+  min-width:100px;
+  border-radius: 2px;
+  font-weight: 500;
 }
