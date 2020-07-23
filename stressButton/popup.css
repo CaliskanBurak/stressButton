@@ -1,0 +1,9 @@
+body {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: dimgray;
+  align-items: center;
+}
