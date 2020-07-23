@@ -1,33 +1,38 @@
 body {
-  width: 250px;
-  height: 250px;
+  width: 255px;
+  height: 255px;
   display: flex;
   font-size: 14px;
   justify-content: center;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(181, 218, 228);
   align-items: center;
   border-radius: 4px;
   background-image: url(https://i.ytimg.com/vi/OOFGdRmN70k/maxresdefault.jpg);
   background-repeat: no-repeat;
   background-size: 275px 275px;
-  color: #FFFFFF;
+
+  color: #ffffff;
   font-family: monospace;
   font-size: 20px;
   font-weight: 800;
 }
 
+p {
+  background-color: rgba(124, 159, 182, 0.63);
+}
+
 button {
   background-color: #4c8bf5;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 30px;
   line-height: 29px;
   text-align: center;
   width: auto;
   border: 0px;
-  padding-left:10px;
-  padding-right:10px;
-  min-width:100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 100px;
   border-radius: 2px;
   font-weight: 500;
 }
